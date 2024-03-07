@@ -7,9 +7,12 @@ Current Average Price from the /avgPrice endpoint.
 
 - The very limited dependencies are in the `requirements.txt` file
 - You will need to sign up to RapidAPI (Free tier gives 100 queries per month) 
-- Once signed up, you need to add your API key to the `secrets/.env` file in the format shown in the example
+- Once signed up, you need to add your API key to the `secrets/.env`
 - To run the tool, ADD ***GITHUB ACTIONS*** type or click `python cryptoChecks.py`
 
-
-
+Notes on using your API Key:
+- create a file called .env in the secrets directory
+- Add your API key as the variable API_KEY
+- Use the format `API_KEY='xxxxxxxxxxxxxxxxxxxxxxxxxxxx'`
+- More ENV vars can be added to this file and will be added to the secrets dictionary in `apilib.py`
 

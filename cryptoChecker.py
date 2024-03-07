@@ -15,4 +15,3 @@ def show_top_three_changers():
 
 
 show_top_three_changers()
-
