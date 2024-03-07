@@ -17,5 +17,9 @@ Notes on using your API Key:
 - Use the format `API_KEY='xxxxxxxxxxxxxxxxxxxxxxxxxxxx'`
 - More ENV vars can be added to this file and will be added to the secrets dictionary in `apilib.py`
 
-TO USE:
-- Uncomment line 6 and comment out line 7 to use the real API (the default is mocked)
+
+TO MAKE SURE YOU USE THE REAL API:
+
+Uncomment line 6 and comment out line 7 to use the real API (the default is mocked).
+This is the default behaviour due to the need for an API key
+
