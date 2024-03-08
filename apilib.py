@@ -5,7 +5,7 @@ from dotenv import dotenv_values
 
 
 class Api:
-    """This class encapsulates the data retrieval and sorting, and provides a single adaptor for the requests lib"""
+    """This class encapsulates the data retrieval and sorting"""
 
     def __init__(self) -> None:
         """Constructor method"""
@@ -17,7 +17,7 @@ class Api:
         }
 
     def api_get(self, endpoint='ticker/24hr', querystring=None) -> dict:
-        """Capture real data from the API using a Get-Request with the default set to the main call"""
+        """Capture real data from the API using a Get-Request"""
         url = self.baseurl + endpoint
         response = requests.get(url=url, headers=self.headers, params=querystring)
         return response.json()
