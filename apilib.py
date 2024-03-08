@@ -19,7 +19,7 @@ class Api:
     def get(self, endpoint='ticker/24hr', querystring=None) -> dict:
         """Capture real data from the API using a Get-Request"""
         url = self.baseurl + endpoint
-        response = requests.get(url=url, headers=self.headers, params=querystring)
+        response = requests.get(url=url, headers=self.headers, params=querystring, timeout=10)
         return response.json()
 
     @staticmethod
