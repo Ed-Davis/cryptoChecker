@@ -24,5 +24,4 @@ If you get SSL version warnings:
 
 TO MAKE SURE YOU USE THE REAL API:
 
-Uncomment line 6 and comment out line 7 to use the real API (the default is mocked).
-This is the default behaviour due to the need for an API key
+Current default uses the real API but this will speed up your use of your credits!
