@@ -31,4 +31,5 @@ class Api:
         ordered = sorted(body_data, key=lambda x: x['priceChangePercent'])
         return ordered[-3:]
 
-#   def that does mock choice function what to call??? maybe data with an option translating the interpretation?
+#   def that does mock choice function what to call???
+#   maybe data with an option translating the interpretation?
