@@ -9,6 +9,7 @@ class Api:
     """This class encapsulates the data retrieval and sorting"""
 
     def __init__(self) -> None:
+        """Constructor method"""
         self.secrets = dotenv_values(".env")
         self.baseurl = "https://binance43.p.rapidapi.com/"
         self.headers = {
