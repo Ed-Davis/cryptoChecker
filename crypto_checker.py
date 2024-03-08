@@ -1,5 +1,7 @@
 from apilib import Api
-"""This module brings together the apilib methods into a workflow"""
+
+
+"""This module brings together the APILib functionality into a workflow"""
 
 
 def show_top_three_changers():
