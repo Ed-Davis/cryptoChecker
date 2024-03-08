@@ -1,4 +1,4 @@
-"""This module handles API requests, ENV vars, and the mocked alternative"""
+"""This module handles API requests, ENV vars, and the mocked alternative data source"""
 import json
 import requests
 from dotenv import dotenv_values
