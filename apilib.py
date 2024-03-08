@@ -4,6 +4,7 @@ import json
 
 """This module handles API requests and the mocked alternative"""
 
+
 class Api:
     """This class encapsulates the data retrieval and sorting"""
 
