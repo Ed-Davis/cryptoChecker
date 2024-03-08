@@ -9,18 +9,20 @@ Current Average Price from the /avgPrice endpoint.
 - You will need to sign up to RapidAPI (Free tier gives 100 queries per month) 
 - Under the ControlUp directory create an .env file
 - Once signed up, you need to add your API key to the `.env` file
-- To run the tool, ADD ***GITHUB ACTIONS*** type or click `python crypto_checker.py`
+- To run the tool, type or click `python crypto_checker.py`
+- GitHub actions are run on each push - this is just a Python linter
 
 Notes on using your API Key:
 - create a file called .env in the secrets directory
 - Add your API key as the variable API_KEY
 - Use the format `API_KEY='xxxxxxxxxxxxxxxxxxxxxxxxxxxx'`
-- More ENV vars can be added to this file and will be added to the secrets dictionary in `apilib.py`
+- More ENV vars can be added to this file and will automatically be in the `secrets` dictionary in `apilib.py`
 
 If you get SSL version warnings:
 `pip uninstall urllib3`
 `pip install 'urllib3<2.0`
 
+*If the response schema changes you will need to create a new cached version of an API response.
 
 TO MAKE SURE YOU USE THE REAL API:
 
