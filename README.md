@@ -24,6 +24,6 @@ If you get SSL version warnings:
 
 *If the response schema changes you will need to create a new cached version of an API response.
 
-TO MAKE SURE YOU USE THE REAL API:
-
-**Beware** The current default uses the real API but this will speed up your use of your credits.
+#### Consciously choose the real API or mocking:
+**Beware** The current default uses the real API but this will speed up your use of your credits. Instead, if you
+need to work on the data listed by the main API, use the mock to save the $£$!
