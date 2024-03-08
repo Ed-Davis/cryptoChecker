@@ -16,7 +16,7 @@ class Api:
             "X-RapidAPI-Host": "binance43.p.rapidapi.com"
         }
 
-    def data(self, endpoint='ticker/24hr', querystring=None) -> dict:
+    def api_get(self, endpoint='ticker/24hr', querystring=None) -> dict:
         """API Get Requests"""
         url = self.baseurl + endpoint
         response = requests.get(url=url, headers=self.headers, params=querystring)
