@@ -31,5 +31,5 @@ class Api:
     @staticmethod
     def top3(body_data: dict) -> list:
         """Sort the data by the key 'priceChangePercent' """
-        ordered = sorted(body_data, key=lambda x: x['priceChangePercent'])
+        ordered = sorted(body_data, key=lambda by_key: by_key['priceChangePercent'])
         return ordered[-3:]
