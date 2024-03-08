@@ -1,5 +1,4 @@
 from apilib import Api
-"""This brings together the functionality of apilib.py"""
 
 
 def show_top_three_changers():
