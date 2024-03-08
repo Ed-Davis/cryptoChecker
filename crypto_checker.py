@@ -3,7 +3,7 @@ from apilib import Api
 
 
 def show_top_three_changers():
-    """This method gets all currency data, sorts them, and then checks the prices of the Top3"""
+    """This function gets all currency data, sorts them, and then checks the prices of the Top3"""
     # return_data = Api.mocked_data()  # Local file data option - used for making the solution
     return_data = Api.get(Api())
     results = Api.top3(return_data)
