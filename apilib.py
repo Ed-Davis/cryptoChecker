@@ -4,6 +4,7 @@ import requests
 from dotenv import dotenv_values
 import json
 
+
 class Api:
 
     def __init__(self) -> None:
