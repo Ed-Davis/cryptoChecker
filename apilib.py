@@ -1,11 +1,9 @@
-import sys
-
 import requests
 from dotenv import dotenv_values
 import json
 from sys import argv
 
-
+"""This module handles API requests and the mocked alternative"""
 class Api:
 
     def __init__(self) -> None:
