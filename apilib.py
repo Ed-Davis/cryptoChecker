@@ -1,7 +1,7 @@
 """This module handles API requests and the mocked alternative"""
+import json
 import requests
 from dotenv import dotenv_values
-import json
 
 
 class Api:
@@ -25,11 +25,11 @@ class Api:
     @staticmethod
     def mocked_data() -> dict:
         """capture mocked data from file"""
-        with open('example.json') as json_file:
+        with open('example.json', encoding='ascii') as json_file:
             return json.load(json_file)
 
     @staticmethod
     def top3(body_data: dict) -> list:
-        """Sort the data"""
+        """Sort the data by the key 'priceChangePercent' """
         ordered = sorted(body_data, key=lambda x: x['priceChangePercent'])
         return ordered[-3:]
