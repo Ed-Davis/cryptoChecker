@@ -17,4 +17,5 @@ I want this info and what am I going to do with it?
 - Add a method that inherits the adaptor method for each RESTful verb needed (extend GET?)
 - Make a decision on mocking and strip it out or create a lib of mocked data
 - If going with mocked data, make it a parameter with a decision on the default behaviour
+- Top3 could itself be a parameter so we could go for the top 5 or just the top changer
 
