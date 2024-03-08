@@ -13,7 +13,7 @@ I want this info and what am I going to do with it?
 
 
 #### Code Improvements
-- Abstract the implied adaptor method so there is a single point where the `requests` library is called, so you could change the dependency with minimal effort if needed (e.g. `urlib2`)
+- Abstract the simple adaptor method so there is a single point where the `requests` library is called, so you could change the dependency with minimal effort if needed (e.g. `urlib2`)
 - Add a method that inherits the adaptor method for each RESTful verb needed (extend GET?)
 - Make a decision on mocking and strip it out or create a lib of mocked data
 - If going with mocked data, make it a parameter with a decision on the default behaviour
