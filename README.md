@@ -8,7 +8,7 @@ Current Average Price from the /avgPrice endpoint.
 - The very limited dependencies are in the `requirements.txt` file
 - You will need to sign up to RapidAPI (Free tier gives 100 queries per month) 
 - Under the ControlUp directory create your own `secrets` folder and create a .env file
-- Once signed up, you need to add your API key to the `secrets/.env` file
+- Once signed up, you need to add your API key to the `.env` file
 - To run the tool, ADD ***GITHUB ACTIONS*** type or click `python cryptoChecks.py`
 
 Notes on using your API Key:
