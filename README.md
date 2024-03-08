@@ -24,4 +24,4 @@ If you get SSL version warnings:
 
 TO MAKE SURE YOU USE THE REAL API:
 
-Current default uses the real API but this will speed up your use of your credits!
+Current default uses the real API but this will speed up your use of your credits.
