@@ -20,7 +20,7 @@ up my 100 api credits
 
 - Annotated using docstrings
 
-- Switched default from mocked to real (for the main data - no intention to extend this at the moment)\
+- Switched default from mocked to real (for the main data - no intention to extend this at the moment)
 
 - Added Github-action to check the Python code (linter) which raised some issues
 
