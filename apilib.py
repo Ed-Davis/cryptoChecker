@@ -1,11 +1,10 @@
-"""This module handles API requests and the mocked alternative"""
-
 import requests
 from dotenv import dotenv_values
 import json
 
 
 class Api:
+"""This module handles API requests and the mocked alternative"""
 
     def __init__(self) -> None:
         self.secrets = dotenv_values(".env")
