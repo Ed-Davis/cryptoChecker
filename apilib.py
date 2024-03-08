@@ -3,7 +3,6 @@
 import requests
 from dotenv import dotenv_values
 import json
-from sys import argv
 
 class Api:
 
@@ -29,6 +28,3 @@ class Api:
     def top3(body_data: dict) -> list:
         ordered = sorted(body_data, key=lambda x: x['priceChangePercent'])
         return ordered[-3:]
-
-#   def that does mock choice function what to call???
-#   maybe data with an option translating the interpretation?
