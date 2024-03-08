@@ -4,7 +4,7 @@ import json
 
 
 class Api:
-"""This module handles API requests and the mocked alternative"""
+    """This module handles API requests and the mocked alternative"""
 
     def __init__(self) -> None:
         self.secrets = dotenv_values(".env")
