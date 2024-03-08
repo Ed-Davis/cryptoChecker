@@ -13,7 +13,7 @@ Current Average Price from the /avgPrice endpoint.
 - GitHub-Actions are run on each push - this is just a Python linter
 
 Notes on using your API Key:
-- create a file called .env in the secrets directory
+- create a file called .env in the ControlUp directory
 - Add your API key as the variable API_KEY
 - Use the format `API_KEY='xxxxxxxxxxxxxxxxxxxxxxxxxxxx'`
 - More ENV vars can be added to this file and will automatically be in the `secrets` dictionary in `apilib.py`
