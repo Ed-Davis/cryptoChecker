@@ -33,7 +33,7 @@ up my 100 api credits
 - Refactored some method names to ones which make more sense now
 
 
-### Friday 8th Part 2 - 1hr
+#### Friday 8th Part 2 - 1hr
 
 - Adding this worklog
 
