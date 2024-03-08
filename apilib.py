@@ -5,7 +5,7 @@ from dotenv import dotenv_values
 
 
 class Api:
-    """This class encapsulates the data retrieval and sorting"""
+    """This class encapsulates the data retrieval and sorting, and the mock option"""
 
     def __init__(self) -> None:
         """Constructor method"""
