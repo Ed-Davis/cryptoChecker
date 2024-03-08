@@ -23,13 +23,13 @@ class Api:
         return response.json()
 
     @staticmethod
-    def mocked_data() -> dict:
-        """capture mocked data from file"""
-        with open('example.json', encoding='ascii') as json_file:
-            return json.load(json_file)
-
-    @staticmethod
     def top3(body_data: dict) -> list:
         """Sort the data by the key 'priceChangePercent' """
         ordered = sorted(body_data, key=lambda by_key: by_key['priceChangePercent'])
         return ordered[-3:]
+
+    @staticmethod
+    def mocked_data(file="all_currencies.json") -> dict:  # For solving the problem only
+        """capture mocked data from file"""
+        with open(file, encoding='ascii') as json_file:
+            return json.load(json_file)
