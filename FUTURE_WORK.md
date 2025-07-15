@@ -1,5 +1,5 @@
 ### Future Possibilities 
-#### (*'If only time were limitless'* AKA if we want to actually make use of this...)
+## AKA If we want to actually make use of this...)
 
 The interface is very ...er... 'MVP'. How might I want to use this tool? How often do 
 I want this info and what am I going to do with it?
